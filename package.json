@@ -1,18 +1,11 @@
 {
-  "name": "popup",
+  "name": "component-popup",
   "description": "Component to create a native popup window via window.open()",
   "version": "0.0.2",
+  "keywords": [],
   "dependencies": {
-    "emitter-component": "*",
-    "inherit-component": "*"
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-inherit": "git://github.com/npmcomponent/component-inherit.git"
   },
-  "component": {
-    "scripts": {
-      "popup": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/popup.git"
-  }
+  "license": "MIT"
 }
